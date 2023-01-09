@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace _4_print_integer
+namespace _5_print_float
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float number = 3.14159f;
+            Console.WriteLine("Float: "+number);
         }
     }
 }
