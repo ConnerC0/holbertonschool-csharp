@@ -1,11 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _0_safe_list_print
+class List
 {
-    class List
-    {
-        public static int SafePrint(List<int> myList, int n)
-        {
+     public static int SafePrint(List<int> myList, int n)
+     {
         int i = 0;
         try
         {
@@ -17,6 +16,6 @@ namespace _0_safe_list_print
             return (i);
         }
         return (i);  
-        }
     }
 }
+
