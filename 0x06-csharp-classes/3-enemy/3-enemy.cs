@@ -2,14 +2,17 @@
 
 namespace Enemies
 {
+    ///<summary>Represents an Zombie.</summary>
     public class Zombie
     {
+        //<summary>Health field of a zombie.</summary>
         private int health;
-        
+        ///<summary>Constructor for Zombie.</summary>
         public Zombie()
         {
             health = 0;
         }
+        ///<summary>Constructor with health value input for Zombie</summary>
         public Zombie(int value)
         {
             if (value < 0)
@@ -21,6 +24,7 @@ namespace Enemies
                 health = value;
             }
         }
+        ///<summary>Method to return current health of a zombie</summary>
         public int GetHealth()
         {
             return (health);
