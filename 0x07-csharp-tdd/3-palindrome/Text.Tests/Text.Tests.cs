@@ -22,5 +22,11 @@ namespace Text.Tests
             string test = "esve";
             Assert.That(Text.Str.IsPalindrome(test), Is.False);
         }
+        [Test]
+		public void Test5()
+		{
+			string str = "";
+            Assert.That(Text.Str.IsPalindrome(test), Is.True);
+		}
     }
 }
