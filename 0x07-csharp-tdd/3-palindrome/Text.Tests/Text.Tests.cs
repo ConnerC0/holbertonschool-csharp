@@ -22,6 +22,5 @@ namespace Text.Tests
             string test = "esve";
             Assert.That(Text.Str.IsPalindrome(test), Is.False);
         }
-        [Test]
     }
 }
