@@ -26,7 +26,7 @@ namespace Text.Tests
 		public void Test5()
 		{
 			string str = "";
-            Assert.That(Text.Str.IsPalindrome(test), Is.False);
+            Assert.That(Text.Str.IsPalindrome(test), Is.True);
 		}
     }
 }
