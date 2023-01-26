@@ -8,7 +8,9 @@ namespace Text
         ///<summary>Determines index of first non-repeating character.</summary>
         public static int UniqueChar(string s)
         {
+            ///<summary>qwrtqwrtqwrt</summary>
             List<char> reject = new List<char>();
+            ///<summary>qwrtqwrtqwrt</summary>
             Dictionary<char, int> hold = new Dictionary<char, int>();
             int idx = -1;
             for (int i = 0; i < s.Length; i++)
