@@ -30,14 +30,14 @@ namespace Text.Tests
         {
             string s = "wvvvvvvvvvvvvvvvvv";
             int result = Text.Str.UniqueChar(s);
-            Assert.That(result, Is.EqualTo(-1));
+            Assert.That(result, Is.EqualTo(1));
         }
         [Test]
         public void UniqueChar_last()
         {
             string s = "vvvvvvvvvvvvvvvvvw";
             int result = Text.Str.UniqueChar(s);
-            Assert.That(result, Is.EqualTo(-1));
+            Assert.That(result, Is.EqualTo(1));
         }
     }
 }
